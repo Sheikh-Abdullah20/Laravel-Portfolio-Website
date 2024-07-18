@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 
 class routesController extends Controller
 {
@@ -12,6 +11,7 @@ class routesController extends Controller
     public function showContact(){
         return view('contact');
     }
+
 
 
 }
